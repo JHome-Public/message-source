@@ -1,0 +1,9 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: message-source
+
+  config:
+    import: optional:configserver:http://localhost:8889
